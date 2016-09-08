@@ -46,7 +46,7 @@ setTimeout(function () {
         freeboard.setDatasourceSettings("Thing_1", {
             "thing_id": window.currentMachine
         });
-        freeboard.newDashboard();
+
 
     });
 
