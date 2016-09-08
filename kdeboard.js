@@ -37,6 +37,11 @@ window.setEmailAddress = function (email) {
 window.resetEmail = function () {
     window.emailActive = false;
 }
+$('.userinput').click(function () {
+    if ($(".userinput").val() == "enter val") {
+        $(".userinput").val("");
+    }
+});
 setTimeout(function () {
     freeboard.showDialog($("<div align='center'><div><h3>Thing Name</h3></div><div><input class='userInput' value='Thing Name'  id='userThingInput'></div><div><div><h3>Email Address</h3></div><input class='userInput' value='Email'  id='userEmailInput'></div></div>"), "Enter Thing Name & Email Address", "<button id='userThingSubmit'>Submit</button>", null, function () {
         window.currentMachine = $("#userThingInput").val();
@@ -48,9 +53,3 @@ setTimeout(function () {
         });
     });
 }, 1000);
-
-$('.userinput').click(function () {
-    if ($(".userinput").val() == "enter val") {
-        $(".userinput").val("");
-    }
-});
