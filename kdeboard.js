@@ -37,9 +37,9 @@ window.setEmailAddress = function (email) {
 window.resetEmail = function () {
     window.emailActive = false;
 }
-$('input#userThingInput.userinput').click(function () {
-    if ($("input#userThingInput.userinput").val() == "enter val") {
-        $("input#userThingInput.userinput").val("");
+$('input#userThingInput').click(function () {
+    if ($("input#userThingInput").val() == "enter val") {
+        $("input#userThingInput").val("");
     }
 });
 setTimeout(function () {
