@@ -24,13 +24,12 @@
     height: 40px;
     border-radius: 7px;
     float: left;
-    margin: 2px 2px 2px 2px;
+    margin: 2px 2px 10px 2px;
     background-color: #B02B2C;
     border: none;
     font-family: verdana;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
-    padding: 10px 10px 10px 10px;
 }
 
 .textDisplaySquare {
