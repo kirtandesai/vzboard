@@ -38,8 +38,8 @@ window.resetEmail = function () {
     window.emailActive = false;
 }
 $('input#userThingInput.userinput').click(function () {
-    if ($(".userinput").val() == "enter val") {
-        $(".userinput").val("");
+    if ($("input#userThingInput.userinput").val() == "enter val") {
+        $("input#userThingInput.userinput").val("");
     }
 });
 setTimeout(function () {
