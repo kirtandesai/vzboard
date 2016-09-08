@@ -1,0 +1,41 @@
+.userInput {
+    width: 800px;
+    height: 80px;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    background-color: darkseagreen;
+    border-radius: 7px;
+}
+
+#userThingInput {
+    border: 1px solid #C3D9FF;
+    width: 600px;
+    height: 80px;
+    font-family: verdana;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 50px 20px 50px;
+}
+
+#userThingSubmit {
+    height: 40px;
+    border-radius: 7px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    background-color: #B02B2C;
+    border: none;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+.textDisplaySquare {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 50px;
+    background-color: aquamarine;
+}
