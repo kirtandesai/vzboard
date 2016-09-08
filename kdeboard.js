@@ -37,7 +37,7 @@ window.setEmailAddress = function (email) {
 window.resetEmail = function () {
     window.emailActive = false;
 }
-$('.userinput').click(function () {
+$('input#userThingInput.userinput').click(function () {
     if ($(".userinput").val() == "enter val") {
         $(".userinput").val("");
     }
