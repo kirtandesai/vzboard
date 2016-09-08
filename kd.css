@@ -1,11 +1,11 @@
 .userInput {
     width: 800px;
-    height: 80px;
+    height: 100px;
     font-family: verdana;
     font-size: 12px;
     font-weight: bold;
     padding: 10px 10px 10px 10px;
-    background-color: darkseagreen;
+    background-color: #EEEEEE;
     border-radius: 7px;
 }
 
@@ -14,9 +14,10 @@
     width: 600px;
     height: 80px;
     font-family: verdana;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     padding: 20px 50px 20px 50px;
+    text-align: center;
 }
 
 #userThingSubmit {
