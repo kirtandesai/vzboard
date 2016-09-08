@@ -1,12 +1,12 @@
 .userInput {
-    width: 800px;
-    height: 100px;
+    border: 1px solid #C3D9FF;
+    width: 600px;
+    height: 80px;
     font-family: verdana;
-    font-size: 12px;
+    font-size: 28px;
     font-weight: bold;
-    padding: 10px 10px 10px 10px;
-    background-color: #EEEEEE;
-    border-radius: 8px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
 }
 
 #userThingInput {
