@@ -40,6 +40,7 @@ window.resetEmail = function () {
 $('input#userThingInput').click(function () {
     if ($("input#userThingInput").val() == "enter val") {
         $("input#userThingInput").val("");
+        alert($("input#userThingInput").val());
     }
 });
 setTimeout(function () {
