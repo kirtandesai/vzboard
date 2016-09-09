@@ -43,7 +43,7 @@ $('input#userThingInput').click(function () {
     }
 });
 setTimeout(function () {
-    freeboard.showDialog($("<div align='center'><div><h3>Thing Name</h3></div><div><input class='userInput' value='Thing Name'  id='userThingInput'></div><div><div><h3>Email Address</h3></div><input class='userInput' value='Email'  id='userEmailInput'></div></div>"), "Enter Thing Name & Email Address", "<button id='userThingSubmit'>Submit</button>", null, function () {
+    freeboard.showDialog($("<div align='center'><div><input class='userInput' value='Thing Name'  id='userThingInput'></div><div><input class='userInput' value='Email'  id='userEmailInput'></div></div>"), "Enter Thing Name & Email Address", "<button id='userThingSubmit'>Submit</button>", null, function () {
         window.currentMachine = $("#userThingInput").val();
         //window.userEmailAddress = $("#userEmailInput").val();
         window.setEmailAddress(window.userEmailAddress);
