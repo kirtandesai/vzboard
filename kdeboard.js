@@ -52,29 +52,30 @@ window.getLocData = function (lat,long){
                  //break up the components
                  //$arrComponents = data.results[0]["address_components"];
                  
-                  for (var i = 0; i < data.results[4].address_components.length; i++) 
-                  { 
-                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
-                      { 
-                          if(data.results[0].address_components[i].types[j] == 'country') { 
-                              window.country = data.results[4].address_components[i].short_name; 
-                              alert(country_code); 
-                          }
-                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
-                              window.zipcode = data.results[0].address_components[i].short_name; 
-                              alert(country_code); 
-                          }
-                          if(data.results[0].address_components[i].types[j] == 'locality') { 
-                              window.city = data.results[0].address_components[i].short_name; 
-                              alert(country_code); 
-                          }
-                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
-                              window.state = data.results[0].address_components[i].short_name; 
-                              alert(country_code); 
-                          }
-                          
-                      }
-                  } 
+//                  for (var i = 0; i < data.results[4].address_components.length; i++) 
+//                  { 
+//                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
+//                      { 
+//                          if(data.results[0].address_components[i].types[j] == 'country') { 
+//                              window.country = data.results[4].address_components[i].short_name; 
+//                              alert(country_code); 
+//                          }
+//                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
+//                              window.zipcode = data.results[0].address_components[i].short_name; 
+//                              alert(country_code); 
+//                          }
+//                          if(data.results[0].address_components[i].types[j] == 'locality') { 
+//                              window.city = data.results[0].address_components[i].short_name; 
+//                              alert(country_code); 
+//                          }
+//                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
+//                              window.state = data.results[0].address_components[i].short_name; 
+//                              alert(country_code); 
+//                          }
+//                          
+//                      }
+//                  } 
+                 alert(data.results[0]);
                      
                      $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
                      die(json_encode($arrReturn));
