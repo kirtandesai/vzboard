@@ -42,50 +42,50 @@ window.resetEmail = function () {
     window.emailActive = false;
 }
 
-window.getLocData = function (lat,long){
-    var urltxt = '';
-    urltxt = 'http://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + long + '&sensor=true';
-    //$.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=true',
-    $.ajax({ url: urltxt,
-         success: function(data){
-             if (count(data.results[0]) > 0) {
-                 //break up the components
-                 //$arrComponents = data.results[0]["address_components"];
-                 
-//                  for (var i = 0; i < data.results[4].address_components.length; i++) 
-//                  { 
-//                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
-//                      { 
-//                          if(data.results[0].address_components[i].types[j] == 'country') { 
-//                              window.country = data.results[4].address_components[i].short_name; 
-//                              alert(country_code); 
-//                          }
-//                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
-//                              window.zipcode = data.results[0].address_components[i].short_name; 
-//                              alert(country_code); 
-//                          }
-//                          if(data.results[0].address_components[i].types[j] == 'locality') { 
-//                              window.city = data.results[0].address_components[i].short_name; 
-//                              alert(country_code); 
-//                          }
-//                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
-//                              window.state = data.results[0].address_components[i].short_name; 
-//                              alert(country_code); 
-//                          }
-//                          
-//                      }
-//                  } 
-                 alert(data.results[0]);
-                     
-//                     $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
-//                     die(json_encode($arrReturn));
-                }
-             //alert(data.results[0].formatted_address);
-             /* iterate the components for only the city and state*/
-            
-           }}
-           })
-}
+//window.getLocData = function (lat,long){
+//    var urltxt = '';
+//    urltxt = 'http://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + long + '&sensor=true';
+//    //$.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=true',
+//    $.ajax({ url: urltxt,
+//         success: function(data){
+//             if (count(data.results[0]) > 0) {
+//                 //break up the components
+//                 //$arrComponents = data.results[0]["address_components"];
+//                 
+////                  for (var i = 0; i < data.results[4].address_components.length; i++) 
+////                  { 
+////                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
+////                      { 
+////                          if(data.results[0].address_components[i].types[j] == 'country') { 
+////                              window.country = data.results[4].address_components[i].short_name; 
+////                              alert(country_code); 
+////                          }
+////                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
+////                              window.zipcode = data.results[0].address_components[i].short_name; 
+////                              alert(country_code); 
+////                          }
+////                          if(data.results[0].address_components[i].types[j] == 'locality') { 
+////                              window.city = data.results[0].address_components[i].short_name; 
+////                              alert(country_code); 
+////                          }
+////                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
+////                              window.state = data.results[0].address_components[i].short_name; 
+////                              alert(country_code); 
+////                          }
+////                          
+////                      }
+////                  } 
+//                 alert(data.results[0]);
+//                     
+////                     $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
+////                     die(json_encode($arrReturn));
+//                }
+//             //alert(data.results[0].formatted_address);
+//             /* iterate the components for only the city and state*/
+//            
+//           }}
+//           })
+//}
 
 
 
@@ -107,8 +107,8 @@ setTimeout(function () {
             "latitude": datasources["my_thing_1"]["your_latitude"],
             "longitude": datasources["my_thing_1"]["your_longitude"]
         });
-        freeboard.setDatasourceSettings("Temp", {
-            "code": getLocData(datasources["my_thing_1"]["your_latitude"], datasources["my_thing_1"]["your_longitude"])[0];
-        });
+//        freeboard.setDatasourceSettings("Temp", {
+//            "code": getLocData(datasources["my_thing_1"]["your_latitude"], datasources["my_thing_1"]["your_longitude"])[0];
+//        });
     });
 }, 1000);
