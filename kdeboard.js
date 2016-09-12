@@ -94,6 +94,12 @@ $('input#userThingInput').click(function () {
         $("input#userThingInput").val("");
     }
 });
+$("#userThingSubmit").click(function(){
+    console.log("success");
+    freeboard.setDatasourceSettings("Temp", {
+            "location": weather.city+', '+weather.region
+        });
+});
 setTimeout(function () {
     freeboard.showDialog($("<div align='center'><div> <h3> Thing Name </h3></div><div><input class='userInput' id='userThingInput' placeholder='kinetic-gold' ></div><div><div><h3>Email Address</h3></div><input class='userInput' id='userEmailInput'  placeholder='firstname.lastname@company.com'></div></div>"), "Enter Thing Name & Email Address", "<button id='userThingSubmit'>Submit</button>", null, function () {
         window.currentMachine = $("#userThingInput").val();
