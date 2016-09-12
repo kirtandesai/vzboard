@@ -45,8 +45,10 @@
 }
 #mylatitide, #mylongitude {
     border: 1px solid #C3D9FF;
+/*
     width: 120%;
     height: 120%;
+*/
     display: block;
     font-family: verdana;
     font-size: 22px;
