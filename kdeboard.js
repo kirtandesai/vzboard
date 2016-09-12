@@ -57,19 +57,19 @@ window.getLocData = function (lat,long){
                       for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
                       { 
                           if(data.results[0].address_components[i].types[j] == 'country') { 
-                              var $window.country = data.results[4].address_components[i].short_name; 
+                              window.country = data.results[4].address_components[i].short_name; 
                               alert(country_code); 
                           }
                           if(data.results[0].address_components[i].types[j] == 'postal_code') { 
-                              var $window.zipcode = data.results[0].address_components[i].short_name; 
+                              window.zipcode = data.results[0].address_components[i].short_name; 
                               alert(country_code); 
                           }
                           if(data.results[0].address_components[i].types[j] == 'locality') { 
-                              var $window.city = data.results[0].address_components[i].short_name; 
+                              window.city = data.results[0].address_components[i].short_name; 
                               alert(country_code); 
                           }
                           if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
-                              var $window.state = data.results[0].address_components[i].short_name; 
+                              window.state = data.results[0].address_components[i].short_name; 
                               alert(country_code); 
                           }
                           
