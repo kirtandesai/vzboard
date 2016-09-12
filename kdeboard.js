@@ -76,12 +76,12 @@ window.getLocData = function (lat,long){
                      
                      $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
                      die(json_encode($arrReturn));
-                 
+                }
              //alert(data.results[0].formatted_address);
              /* iterate the components for only the city and state*/
-            }
-           });
-}
+            
+           }}
+           })}
 
 $('input#userThingInput').click(function () {
     if ($("input#userThingInput").val() == "enter val") {
