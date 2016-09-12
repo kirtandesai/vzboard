@@ -103,10 +103,10 @@ setTimeout(function () {
         freeboard.setDatasourceSettings("my_thing_1", {
             "thing_id": window.currentMachine
         });
-        freeboard.setDatasourceSettings("Google Map", {
-            "latitude": datasources["my_thing_1"]["your_latitude"],
-            "longitude": datasources["my_thing_1"]["your_longitude"]
-        });
+//        freeboard.setDatasourceSettings("Google Map", {
+//            "latitude": datasources["my_thing_1"]["your_latitude"],
+//            "longitude": datasources["my_thing_1"]["your_longitude"]
+//        });
 //        freeboard.setDatasourceSettings("Temp", {
 //            "code": getLocData(datasources["my_thing_1"]["your_latitude"], datasources["my_thing_1"]["your_longitude"])[0];
 //        });
