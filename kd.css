@@ -43,3 +43,15 @@
     margin: 50px;
     background-color: aquamarine;
 }
+#mylatitide, #mylongitude {
+    border: 1px solid #C3D9FF;
+    width: 600px;
+    height: 20px;
+    display: block;
+    font-family: verdana;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
