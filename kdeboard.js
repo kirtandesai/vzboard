@@ -4,6 +4,9 @@ window.emailActive = false;
 window.userEmailAddress = "";
 window.currentMachine = "";
 window.key = "";
+window.city = "";
+window.state = "";
+window.country = ""; 
 window.zipcode = "";
 
 $.support.cors = true;
@@ -47,32 +50,31 @@ window.getLocData = function (lat,long){
          success: function(data){
              if (count(data.results[0]) > 0) {
                  //break up the components
-                 $arrComponents = data.results[0]["address_components"];
+                 //$arrComponents = data.results[0]["address_components"];
                  
-                 foreach($arrComponents as $index=>$component) {
-                     $type = $component->types[0];
-                     if ($window.zipcode == "" && ($type == "postal_code") ) {
-                         $window.zipcode = trim($component->short_name);
-                     }
-                     if ($window.city == "" && ($type == "sublocality_level_1" || $type == "locality") ) {
-                         $window.city = trim($component->short_name);
-                     }
-                     if ($window.state == "" && $type=="administrative_area_level_1") {
-                        $window.state = trim($component->short_name);
-                     }
-                     if ($window.country == "" && $type=="country") {
-                        $window.country = trim($component->short_name);
-
-                        if ($blnUSA && $window.country!="US") {
-                            $city = "";
-                            $state = "";
-                            break;
-                        }
-                     }
-                     if ($city != "" && $state != "" && $country != "") {
-                        //we're done
-                        break;
-                     }
+                  for (var i = 0; i < data.results[4].address_components.length; i++) 
+                  { 
+                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
+                      { 
+                          if(data.results[0].address_components[i].types[j] == 'country') { 
+                              var $window.country = data.results[4].address_components[i].short_name; 
+                              alert(country_code); 
+                          }
+                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
+                              var $window.zipcode = data.results[0].address_components[i].short_name; 
+                              alert(country_code); 
+                          }
+                          if(data.results[0].address_components[i].types[j] == 'locality') { 
+                              var $window.city = data.results[0].address_components[i].short_name; 
+                              alert(country_code); 
+                          }
+                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
+                              var $window.state = data.results[0].address_components[i].short_name; 
+                              alert(country_code); 
+                          }
+                          
+                      }
+                  } 
                      
                      $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
                      die(json_encode($arrReturn));
@@ -81,7 +83,10 @@ window.getLocData = function (lat,long){
              /* iterate the components for only the city and state*/
             
            }}
-           })}
+           })
+}
+
+
 
 $('input#userThingInput').click(function () {
     if ($("input#userThingInput").val() == "enter val") {
