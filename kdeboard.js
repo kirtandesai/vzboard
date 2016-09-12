@@ -4,6 +4,7 @@ window.emailActive = false;
 window.userEmailAddress = "";
 window.currentMachine = "";
 window.key = "";
+window.zipcode = "";
 
 $.support.cors = true;
 
@@ -37,15 +38,48 @@ window.setEmailAddress = function (email) {
 window.resetEmail = function () {
     window.emailActive = false;
 }
-window.setLocationCotext = function (lat,long){
+
+window.getLocData = function (lat,long){
     var urltxt = '';
     urltxt = 'http://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + long + '&sensor=true';
     //$.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=true',
     $.ajax({ url: urltxt,
          success: function(data){
-             alert(data.results[0].formatted_address);
+             if (count(data.results[0]) > 0) {
+                 //break up the components
+                 $arrComponents = data.results[0]->address_components;
+                 
+                 foreach($arrComponents as $index=>$component) {
+                     $type = $component->types[0];
+                     if ($window.zipcode == "" && ($type == "postal_code") ) {
+                         $window.zipcode = trim($component->short_name);
+                     }
+                     if ($window.city == "" && ($type == "sublocality_level_1" || $type == "locality") ) {
+                         $window.city = trim($component->short_name);
+                     }
+                     if ($window.state == "" && $type=="administrative_area_level_1") {
+                        $window.state = trim($component->short_name);
+                     }
+                     if ($window.country == "" && $type=="country") {
+                        $window.country = trim($component->short_name);
+
+                        if ($blnUSA && $window.country!="US") {
+                            $city = "";
+                            $state = "";
+                            break;
+                        }
+                     }
+                     if ($city != "" && $state != "" && $country != "") {
+                        //we're done
+                        break;
+                     }
+                     
+                     $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
+                     die(json_encode($arrReturn));
+                 
+             //alert(data.results[0].formatted_address);
              /* iterate the components for only the city and state*/
-         }
+            }
            });
 }
 
@@ -60,8 +94,15 @@ setTimeout(function () {
         //window.userEmailAddress = $("#userEmailInput").val();
         window.setEmailAddress(window.userEmailAddress);
         //alert(window.userEmailAddress);
-        freeboard.setDatasourceSettings("Thing_1", {
+        freeboard.setDatasourceSettings("my_thing_1", {
             "thing_id": window.currentMachine
+        });
+        freeboard.setDatasourceSettings("Google Map", {
+            "latitude": datasources["my_thing_1"]["your_latitude"],
+            "longitude": datasources["my_thing_1"]["your_longitude"]
+        });
+        freeboard.setDatasourceSettings("Temp", {
+            "code": getLocData(datasources["my_thing_1"]["your_latitude"], datasources["my_thing_1"]["your_longitude"])[0];
         });
     });
 }, 1000);
