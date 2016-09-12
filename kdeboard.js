@@ -47,7 +47,7 @@ window.getLocData = function (lat,long){
          success: function(data){
              if (count(data.results[0]) > 0) {
                  //break up the components
-                 $arrComponents = data.results[0]->address_components;
+                 $arrComponents = data.results[0]["address_components"];
                  
                  foreach($arrComponents as $index=>$component) {
                      $type = $component->types[0];
