@@ -64,7 +64,8 @@ setTimeout(function () {
         //alert(window.userEmailAddress);
         freeboard.setDatasourceSettings("my_thing_1", {"thing_id": window.currentMachine});
         freeboard.setDatasourceSettings("Local Weather",{"location":'Charlotte, NC'});
-        console.log(freeboard.getDatasourceSettings("Temp"));
+        freeboard.setDatasourceSettings("Temp",{"location":'Charlotte, NC'});
+        //console.log(freeboard.getDatasourceSettings("Temp"));
         window.sendEmailAlert();
 //        freeboard.setDatasourceSettings("Google Map", {
 //            "latitude": datasources["my_thing_1"]["your_latitude"],
