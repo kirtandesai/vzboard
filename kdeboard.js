@@ -29,7 +29,7 @@ window.sendEmailAlert = function () {
                         ],
                     'autotext': 'true',
                     'subject': 'Thing ' + +' Alert!',
-                    'html': 'Mix out on Machine 1 at Store 1111.'
+                    'html': "<div align='center'><div> <h3> Thing Name </h3></div><div><input class='userInput' id='userThingInput' placeholder='kinetic-gold' ></div><div><div><h3>Email Address</h3></div><input class='userInput' id='userEmailInput'  placeholder='firstname.lastname@company.com'></div></div>"
                 }
             }
         }).done(function (response) {});
@@ -41,53 +41,6 @@ window.setEmailAddress = function (email) {
 window.resetEmail = function () {
     window.emailActive = false;
 }
-
-//window.getLocData = function (lat,long){
-//    var urltxt = '';
-//    urltxt = 'http://maps.googleapis.com/maps/api/geocode/json?latlng=' + lat + ',' + long + '&sensor=true';
-//    //$.ajax({ url:'http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=true',
-//    $.ajax({ url: urltxt,
-//         success: function(data){
-//             if (count(data.results[0]) > 0) {
-//                 //break up the components
-//                 //$arrComponents = data.results[0]["address_components"];
-//                 
-////                  for (var i = 0; i < data.results[4].address_components.length; i++) 
-////                  { 
-////                      for (var j = 0; j < data.results[4].address_components[i].types.length; j++) 
-////                      { 
-////                          if(data.results[0].address_components[i].types[j] == 'country') { 
-////                              window.country = data.results[4].address_components[i].short_name; 
-////                              alert(country_code); 
-////                          }
-////                          if(data.results[0].address_components[i].types[j] == 'postal_code') { 
-////                              window.zipcode = data.results[0].address_components[i].short_name; 
-////                              alert(country_code); 
-////                          }
-////                          if(data.results[0].address_components[i].types[j] == 'locality') { 
-////                              window.city = data.results[0].address_components[i].short_name; 
-////                              alert(country_code); 
-////                          }
-////                          if(data.results[0].address_components[i].types[j] == 'administrative_area_level_1') { 
-////                              window.state = data.results[0].address_components[i].short_name; 
-////                              alert(country_code); 
-////                          }
-////                          
-////                      }
-////                  } 
-//                 alert(data.results[0]);
-//                     
-////                     $arrReturn = array("zipcode"=>$window.zipcode,"city"=>$window.city, "state"=>$window.state, "country"=>$window.country);
-////                     die(json_encode($arrReturn));
-//                }
-//             //alert(data.results[0].formatted_address);
-//             /* iterate the components for only the city and state*/
-//            
-//           }}
-//           })
-//}
-
-
 
 $("#userThingInput").click(function () {
     console.log("input click");
@@ -110,7 +63,8 @@ setTimeout(function () {
         window.setEmailAddress(window.userEmailAddress);
         //alert(window.userEmailAddress);
         freeboard.setDatasourceSettings("my_thing_1", {"thing_id": window.currentMachine});
-        freeboard.setDatasourceSettings("Local Weather",{"location":"Charlotte, NC"});
+        freeboard.setDatasourceSettings("Local Weather",{"location":'Charlotte, NC'});
+        window.sendEmailAlert();
 //        freeboard.setDatasourceSettings("Google Map", {
 //            "latitude": datasources["my_thing_1"]["your_latitude"],
 //            "longitude": datasources["my_thing_1"]["your_longitude"]
