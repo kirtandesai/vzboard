@@ -109,9 +109,9 @@ setTimeout(function () {
         //window.userEmailAddress = $("#userEmailInput").val();
         window.setEmailAddress(window.userEmailAddress);
         //alert(window.userEmailAddress);
-        freeboard.setDatasourceSettings("my_thing_1", {
+               freeboard.setDatasourceSettings("my_thing_1", {
             "thing_id": window.currentMachine
-        });
+        }, "Local Weather",{"location":'Charlotte, NC'});
 //        freeboard.setDatasourceSettings("Google Map", {
 //            "latitude": datasources["my_thing_1"]["your_latitude"],
 //            "longitude": datasources["my_thing_1"]["your_longitude"]
