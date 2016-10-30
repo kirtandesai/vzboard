@@ -1,0 +1,1580 @@
+[
+    {
+        "epochtime": "1375144393.8",
+        "latitude": "84.3928713333",
+        "longitude": "33.7926795",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375144393.85",
+        "latitude": "84.3928685",
+        "longitude": "33.792942833",
+        "airquality": "215"
+    },
+    {
+        "epochtime": "1375144393.85",
+        "latitude": "84.3928666667",
+        "longitude": "33.793077333",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375144398.08",
+        "latitude": "84.39286",
+        "longitude": "33.793191167",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375144402.59",
+        "latitude": "84.3928543333",
+        "longitude": "33.793283667",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375144411.95",
+        "latitude": "84.3928506667",
+        "longitude": "33.793355167",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375144528.78",
+        "latitude": "84.3930763333",
+        "longitude": "33.7934985",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375144529.29",
+        "latitude": "84.3930676667",
+        "longitude": "33.793495833",
+        "airquality": "208"
+    },
+    {
+        "epochtime": "1375144532.98",
+        "latitude": "84.3930603333",
+        "longitude": "33.793486167",
+        "airquality": "207"
+    },
+    {
+        "epochtime": "1375144538.96",
+        "latitude": "84.3931073333",
+        "longitude": "33.793429333",
+        "airquality": "205"
+    },
+    {
+        "epochtime": "1375144544.92",
+        "latitude": "84.3932006667",
+        "longitude": "33.793327",
+        "airquality": "206"
+    },
+    {
+        "epochtime": "1375144551.35",
+        "latitude": "84.3932106667",
+        "longitude": "33.7932005",
+        "airquality": "201"
+    },
+    {
+        "epochtime": "1375144557.01",
+        "latitude": "84.3931566667",
+        "longitude": "33.793089667",
+        "airquality": "195"
+    },
+    {
+        "epochtime": "1375144563.05",
+        "latitude": "84.3931201667",
+        "longitude": "33.792953833",
+        "airquality": "197"
+    },
+    {
+        "epochtime": "1375144569.17",
+        "latitude": "84.3932611667",
+        "longitude": "33.792999833",
+        "airquality": "200"
+    },
+    {
+        "epochtime": "1375144574.97",
+        "latitude": "84.393408",
+        "longitude": "33.792859",
+        "airquality": "196"
+    },
+    {
+        "epochtime": "1375144645.44",
+        "latitude": "84.393553",
+        "longitude": "33.792703333",
+        "airquality": "194"
+    },
+    {
+        "epochtime": "1375144645.74",
+        "latitude": "84.3935971667",
+        "longitude": "33.792671",
+        "airquality": "198"
+    },
+    {
+        "epochtime": "1375144645.74",
+        "latitude": "84.3935866667",
+        "longitude": "33.792684667",
+        "airquality": "200"
+    },
+    {
+        "epochtime": "1375144645.74",
+        "latitude": "84.393586",
+        "longitude": "33.792699667",
+        "airquality": "202"
+    },
+    {
+        "epochtime": "1375144645.75",
+        "latitude": "84.3935863333",
+        "longitude": "33.792709833",
+        "airquality": "204"
+    },
+    {
+        "epochtime": "1375144645.75",
+        "latitude": "84.3936463333",
+        "longitude": "33.792621333",
+        "airquality": "205"
+    },
+    {
+        "epochtime": "1375144646.08",
+        "latitude": "84.393766",
+        "longitude": "33.7924155",
+        "airquality": "205"
+    },
+    {
+        "epochtime": "1375144646.08",
+        "latitude": "84.3937675",
+        "longitude": "33.7922075",
+        "airquality": "204"
+    },
+    {
+        "epochtime": "1375144646.09",
+        "latitude": "84.393626",
+        "longitude": "33.792024167",
+        "airquality": "202"
+    },
+    {
+        "epochtime": "1375144646.1",
+        "latitude": "84.3934431667",
+        "longitude": "33.791824667",
+        "airquality": "197"
+    },
+    {
+        "epochtime": "1375144646.1",
+        "latitude": "84.3932406667",
+        "longitude": "33.791607667",
+        "airquality": "189"
+    },
+    {
+        "epochtime": "1375144646.95",
+        "latitude": "84.3930496667",
+        "longitude": "33.791353667",
+        "airquality": "186"
+    },
+    {
+        "epochtime": "1375144652.96",
+        "latitude": "84.3928548333",
+        "longitude": "33.791136667",
+        "airquality": "184"
+    },
+    {
+        "epochtime": "1375144659.01",
+        "latitude": "84.3926638333",
+        "longitude": "33.790886333",
+        "airquality": "175"
+    },
+    {
+        "epochtime": "1375144665.62",
+        "latitude": "84.3924576667",
+        "longitude": "33.790643667",
+        "airquality": "165"
+    },
+    {
+        "epochtime": "1375144670.95",
+        "latitude": "84.3922566667",
+        "longitude": "33.7903945",
+        "airquality": "164"
+    },
+    {
+        "epochtime": "1375144677.03",
+        "latitude": "84.392046",
+        "longitude": "33.790157833",
+        "airquality": "165"
+    },
+    {
+        "epochtime": "1375144683.05",
+        "latitude": "84.3918381667",
+        "longitude": "33.789905167",
+        "airquality": "161"
+    },
+    {
+        "epochtime": "1375144688.99",
+        "latitude": "84.3916451667",
+        "longitude": "33.7896635",
+        "airquality": "162"
+    },
+    {
+        "epochtime": "1375144696.76",
+        "latitude": "84.3914493333",
+        "longitude": "33.7894355",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144700.94",
+        "latitude": "84.3912238333",
+        "longitude": "33.789248",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144713.79",
+        "latitude": "84.3909871667",
+        "longitude": "33.7890645",
+        "airquality": "170"
+    },
+    {
+        "epochtime": "1375144713.79",
+        "latitude": "84.3907366667",
+        "longitude": "33.788913",
+        "airquality": "177"
+    },
+    {
+        "epochtime": "1375144718.94",
+        "latitude": "84.390493",
+        "longitude": "33.788792",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144724.93",
+        "latitude": "84.3902211667",
+        "longitude": "33.788708167",
+        "airquality": "151"
+    },
+    {
+        "epochtime": "1375144730.94",
+        "latitude": "84.3899628333",
+        "longitude": "33.788527667",
+        "airquality": "158"
+    },
+    {
+        "epochtime": "1375144736.96",
+        "latitude": "84.3897166667",
+        "longitude": "33.788337167",
+        "airquality": "176"
+    },
+    {
+        "epochtime": "1375144743.01",
+        "latitude": "84.389529",
+        "longitude": "33.788079833",
+        "airquality": "177"
+    },
+    {
+        "epochtime": "1375144748.97",
+        "latitude": "84.3893305",
+        "longitude": "33.787925333",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144754.97",
+        "latitude": "84.3891001667",
+        "longitude": "33.787828167",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375144761.81",
+        "latitude": "84.3888201667",
+        "longitude": "33.787773667",
+        "airquality": "148"
+    },
+    {
+        "epochtime": "1375144766.98",
+        "latitude": "84.388584",
+        "longitude": "33.787716833",
+        "airquality": "163"
+    },
+    {
+        "epochtime": "1375144773.0",
+        "latitude": "84.3882885",
+        "longitude": "33.787651167",
+        "airquality": "179"
+    },
+    {
+        "epochtime": "1375144778.99",
+        "latitude": "84.3880065",
+        "longitude": "33.787596167",
+        "airquality": "171"
+    },
+    {
+        "epochtime": "1375144784.95",
+        "latitude": "84.3877358333",
+        "longitude": "33.7875875",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375144790.93",
+        "latitude": "84.3874678333",
+        "longitude": "33.787559833",
+        "airquality": "151"
+    },
+    {
+        "epochtime": "1375144797.1",
+        "latitude": "84.3872061667",
+        "longitude": "33.787564167",
+        "airquality": "156"
+    },
+    {
+        "epochtime": "1375144803.03",
+        "latitude": "84.3869488333",
+        "longitude": "33.787596333",
+        "airquality": "164"
+    },
+    {
+        "epochtime": "1375144809.01",
+        "latitude": "84.3866758333",
+        "longitude": "33.787609",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144815.02",
+        "latitude": "84.3864131667",
+        "longitude": "33.7876405",
+        "airquality": "164"
+    },
+    {
+        "epochtime": "1375144821.01",
+        "latitude": "84.3861556667",
+        "longitude": "33.787670333",
+        "airquality": "163"
+    },
+    {
+        "epochtime": "1375144828.13",
+        "latitude": "84.385903",
+        "longitude": "33.787682333",
+        "airquality": "162"
+    },
+    {
+        "epochtime": "1375144832.94",
+        "latitude": "84.385633",
+        "longitude": "33.787717167",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144887.07",
+        "latitude": "84.385376",
+        "longitude": "33.787715333",
+        "airquality": "173"
+    },
+    {
+        "epochtime": "1375144887.22",
+        "latitude": "84.3851178333",
+        "longitude": "33.787722667",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144887.22",
+        "latitude": "84.3848568333",
+        "longitude": "33.787756667",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144931.18",
+        "latitude": "84.3845901667",
+        "longitude": "33.787794667",
+        "airquality": "172"
+    },
+    {
+        "epochtime": "1375144931.18",
+        "latitude": "84.3843141667",
+        "longitude": "33.787817",
+        "airquality": "175"
+    },
+    {
+        "epochtime": "1375144931.18",
+        "latitude": "84.3840313333",
+        "longitude": "33.787840333",
+        "airquality": "169"
+    },
+    {
+        "epochtime": "1375144931.65",
+        "latitude": "84.3837516667",
+        "longitude": "33.787846333",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144931.65",
+        "latitude": "84.3834836667",
+        "longitude": "33.787855",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144931.65",
+        "latitude": "84.3832198333",
+        "longitude": "33.787893167",
+        "airquality": "170"
+    },
+    {
+        "epochtime": "1375144931.67",
+        "latitude": "84.3829536667",
+        "longitude": "33.787976167",
+        "airquality": "165"
+    },
+    {
+        "epochtime": "1375144931.67",
+        "latitude": "84.3826751667",
+        "longitude": "33.787995167",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375144943.78",
+        "latitude": "84.3824255",
+        "longitude": "33.787976333",
+        "airquality": "149"
+    },
+    {
+        "epochtime": "1375144943.78",
+        "latitude": "84.382148",
+        "longitude": "33.787948167",
+        "airquality": "159"
+    },
+    {
+        "epochtime": "1375144943.79",
+        "latitude": "84.3818675",
+        "longitude": "33.787954167",
+        "airquality": "162"
+    },
+    {
+        "epochtime": "1375144943.79",
+        "latitude": "84.3816318333",
+        "longitude": "33.788012833",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375144944.0",
+        "latitude": "84.3814038333",
+        "longitude": "33.788083",
+        "airquality": "165"
+    },
+    {
+        "epochtime": "1375144955.66",
+        "latitude": "84.3811585",
+        "longitude": "33.788144333",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375144955.66",
+        "latitude": "84.3809195",
+        "longitude": "33.788244667",
+        "airquality": "157"
+    },
+    {
+        "epochtime": "1375144955.67",
+        "latitude": "84.3806823333",
+        "longitude": "33.788383667",
+        "airquality": "151"
+    },
+    {
+        "epochtime": "1375144955.67",
+        "latitude": "84.3804606667",
+        "longitude": "33.7885425",
+        "airquality": "154"
+    },
+    {
+        "epochtime": "1375144958.93",
+        "latitude": "84.3802686667",
+        "longitude": "33.7887335",
+        "airquality": "158"
+    },
+    {
+        "epochtime": "1375144964.96",
+        "latitude": "84.3801078333",
+        "longitude": "33.788928667",
+        "airquality": "156"
+    },
+    {
+        "epochtime": "1375144987.2",
+        "latitude": "84.3799545",
+        "longitude": "33.789109833",
+        "airquality": "158"
+    },
+    {
+        "epochtime": "1375144987.2",
+        "latitude": "84.3798116667",
+        "longitude": "33.789280833",
+        "airquality": "161"
+    },
+    {
+        "epochtime": "1375144987.2",
+        "latitude": "84.3796616667",
+        "longitude": "33.7894825",
+        "airquality": "167"
+    },
+    {
+        "epochtime": "1375144988.95",
+        "latitude": "84.3794848333",
+        "longitude": "33.789715333",
+        "airquality": "169"
+    },
+    {
+        "epochtime": "1375144999.41",
+        "latitude": "84.3793261667",
+        "longitude": "33.789940167",
+        "airquality": "154"
+    },
+    {
+        "epochtime": "1375145000.93",
+        "latitude": "84.379175",
+        "longitude": "33.790158667",
+        "airquality": "136"
+    },
+    {
+        "epochtime": "1375145008.4",
+        "latitude": "84.3790573333",
+        "longitude": "33.7903775",
+        "airquality": "123"
+    },
+    {
+        "epochtime": "1375145013.12",
+        "latitude": "84.3789273333",
+        "longitude": "33.790603667",
+        "airquality": "121"
+    },
+    {
+        "epochtime": "1375145019.02",
+        "latitude": "84.3787775",
+        "longitude": "33.790822167",
+        "airquality": "123"
+    },
+    {
+        "epochtime": "1375145024.98",
+        "latitude": "84.3785741667",
+        "longitude": "33.791048833",
+        "airquality": "123"
+    },
+    {
+        "epochtime": "1375145031.49",
+        "latitude": "84.3783305",
+        "longitude": "33.791289667",
+        "airquality": "140"
+    },
+    {
+        "epochtime": "1375145048.97",
+        "latitude": "84.3781821667",
+        "longitude": "33.791460333",
+        "airquality": "166"
+    },
+    {
+        "epochtime": "1375145048.97",
+        "latitude": "84.3781153333",
+        "longitude": "33.7915035",
+        "airquality": "182"
+    },
+    {
+        "epochtime": "1375145048.97",
+        "latitude": "84.378093",
+        "longitude": "33.791510667",
+        "airquality": "191"
+    },
+    {
+        "epochtime": "1375145056.18",
+        "latitude": "84.3780613333",
+        "longitude": "33.791536333",
+        "airquality": "195"
+    },
+    {
+        "epochtime": "1375145061.14",
+        "latitude": "84.3780253333",
+        "longitude": "33.791574167",
+        "airquality": "194"
+    },
+    {
+        "epochtime": "1375145068.8",
+        "latitude": "84.3778853333",
+        "longitude": "33.791737",
+        "airquality": "191"
+    },
+    {
+        "epochtime": "1375145083.48",
+        "latitude": "84.3777713333",
+        "longitude": "33.791892667",
+        "airquality": "173"
+    },
+    {
+        "epochtime": "1375145083.48",
+        "latitude": "84.3777858333",
+        "longitude": "33.791997833",
+        "airquality": "150"
+    },
+    {
+        "epochtime": "1375145084.9",
+        "latitude": "84.3776548333",
+        "longitude": "33.7922835",
+        "airquality": "139"
+    },
+    {
+        "epochtime": "1375145090.88",
+        "latitude": "84.3774346667",
+        "longitude": "33.792594333",
+        "airquality": "132"
+    },
+    {
+        "epochtime": "1375145096.92",
+        "latitude": "84.3772151667",
+        "longitude": "33.792783167",
+        "airquality": "134"
+    },
+    {
+        "epochtime": "1375145102.87",
+        "latitude": "84.3770233333",
+        "longitude": "33.792996667",
+        "airquality": "140"
+    },
+    {
+        "epochtime": "1375145108.93",
+        "latitude": "84.376872",
+        "longitude": "33.7932305",
+        "airquality": "135"
+    },
+    {
+        "epochtime": "1375145114.92",
+        "latitude": "84.3766988333",
+        "longitude": "33.7934905",
+        "airquality": "126"
+    },
+    {
+        "epochtime": "1375145120.97",
+        "latitude": "84.3764745",
+        "longitude": "33.7935945",
+        "airquality": "124"
+    },
+    {
+        "epochtime": "1375145132.16",
+        "latitude": "84.3764356667",
+        "longitude": "33.793645",
+        "airquality": "142"
+    },
+    {
+        "epochtime": "1375145132.87",
+        "latitude": "84.3764153333",
+        "longitude": "33.793658833",
+        "airquality": "168"
+    },
+    {
+        "epochtime": "1375145138.94",
+        "latitude": "84.3763986667",
+        "longitude": "33.793717833",
+        "airquality": "182"
+    },
+    {
+        "epochtime": "1375145144.97",
+        "latitude": "84.3764293333",
+        "longitude": "33.793855167",
+        "airquality": "188"
+    },
+    {
+        "epochtime": "1375145150.95",
+        "latitude": "84.376493",
+        "longitude": "33.794000167",
+        "airquality": "189"
+    },
+    {
+        "epochtime": "1375145157.53",
+        "latitude": "84.3765495",
+        "longitude": "33.794095",
+        "airquality": "173"
+    },
+    {
+        "epochtime": "1375145162.9",
+        "latitude": "84.3765485",
+        "longitude": "33.79414",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375145168.86",
+        "latitude": "84.3765418333",
+        "longitude": "33.794148833",
+        "airquality": "155"
+    },
+    {
+        "epochtime": "1375145174.94",
+        "latitude": "84.376542",
+        "longitude": "33.7941515",
+        "airquality": "159"
+    },
+    {
+        "epochtime": "1375145182.58",
+        "latitude": "84.3765411667",
+        "longitude": "33.794152",
+        "airquality": "157"
+    },
+    {
+        "epochtime": "1375145186.85",
+        "latitude": "84.3765395",
+        "longitude": "33.794153833",
+        "airquality": "163"
+    },
+    {
+        "epochtime": "1375145192.84",
+        "latitude": "84.3765383333",
+        "longitude": "33.7941575",
+        "airquality": "171"
+    },
+    {
+        "epochtime": "1375145200.03",
+        "latitude": "84.3765253333",
+        "longitude": "33.794176833",
+        "airquality": "169"
+    },
+    {
+        "epochtime": "1375145204.95",
+        "latitude": "84.376457",
+        "longitude": "33.7943055",
+        "airquality": "170"
+    },
+    {
+        "epochtime": "1375145210.93",
+        "latitude": "84.3764338333",
+        "longitude": "33.794431667",
+        "airquality": "173"
+    },
+    {
+        "epochtime": "1375145218.64",
+        "latitude": "84.3764263333",
+        "longitude": "33.794447",
+        "airquality": "177"
+    },
+    {
+        "epochtime": "1375145222.94",
+        "latitude": "84.3763861667",
+        "longitude": "33.7944935",
+        "airquality": "183"
+    },
+    {
+        "epochtime": "1375145321.27",
+        "latitude": "84.376191",
+        "longitude": "33.794574667",
+        "airquality": "183"
+    },
+    {
+        "epochtime": "1375145325.03",
+        "latitude": "84.37626",
+        "longitude": "33.794543167",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375145332.81",
+        "latitude": "84.3762695",
+        "longitude": "33.7945145",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375145336.97",
+        "latitude": "84.3762733333",
+        "longitude": "33.794487167",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145342.93",
+        "latitude": "84.3762861667",
+        "longitude": "33.794482333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145349.0",
+        "latitude": "84.3762841667",
+        "longitude": "33.79448",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145355.61",
+        "latitude": "84.3762896667",
+        "longitude": "33.794462833",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145363.2",
+        "latitude": "84.376309",
+        "longitude": "33.794556667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145368.0",
+        "latitude": "84.3762926667",
+        "longitude": "33.794581833",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145372.94",
+        "latitude": "84.3763008333",
+        "longitude": "33.794587667",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145378.96",
+        "latitude": "84.3763313333",
+        "longitude": "33.794570833",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145393.68",
+        "latitude": "84.3763208333",
+        "longitude": "33.794567333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145414.32",
+        "latitude": "84.3763243333",
+        "longitude": "33.794563333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145414.49",
+        "latitude": "84.3763393333",
+        "longitude": "33.794587833",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145414.49",
+        "latitude": "84.376321",
+        "longitude": "33.794564333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145414.49",
+        "latitude": "84.3762786667",
+        "longitude": "33.794491667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145414.75",
+        "latitude": "84.3762731667",
+        "longitude": "33.7944785",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375145422.7",
+        "latitude": "84.376284",
+        "longitude": "33.7944495",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375145426.9",
+        "latitude": "84.3762765",
+        "longitude": "33.794491667",
+        "airquality": "215"
+    },
+    {
+        "epochtime": "1375145432.9",
+        "latitude": "84.3762963333",
+        "longitude": "33.794471667",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375145438.94",
+        "latitude": "84.3763148333",
+        "longitude": "33.794460833",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375145446.37",
+        "latitude": "84.3763221667",
+        "longitude": "33.794458333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145453.5",
+        "latitude": "84.3763605",
+        "longitude": "33.7944135",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145456.9",
+        "latitude": "84.376391",
+        "longitude": "33.794406667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145463.05",
+        "latitude": "84.3763976667",
+        "longitude": "33.794486",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145468.97",
+        "latitude": "84.3763973333",
+        "longitude": "33.794517167",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145476.98",
+        "latitude": "84.3764038333",
+        "longitude": "33.794520333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145480.93",
+        "latitude": "84.3763945",
+        "longitude": "33.794514667",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145489.84",
+        "latitude": "84.3763868333",
+        "longitude": "33.7945135",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145492.87",
+        "latitude": "84.3763791667",
+        "longitude": "33.794526167",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145498.92",
+        "latitude": "84.3763746667",
+        "longitude": "33.794562667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145504.87",
+        "latitude": "84.3763596667",
+        "longitude": "33.794590833",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145531.04",
+        "latitude": "84.3763518333",
+        "longitude": "33.794610333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145532.04",
+        "latitude": "84.3762586667",
+        "longitude": "33.794658667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145532.04",
+        "latitude": "84.3762366667",
+        "longitude": "33.794678",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145532.04",
+        "latitude": "84.3762473333",
+        "longitude": "33.794675833",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145534.88",
+        "latitude": "84.376231",
+        "longitude": "33.794670833",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145540.83",
+        "latitude": "84.3762075",
+        "longitude": "33.794676333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145546.83",
+        "latitude": "84.3761953333",
+        "longitude": "33.794675833",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145554.78",
+        "latitude": "84.3762138333",
+        "longitude": "33.7946915",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375145558.86",
+        "latitude": "84.376225",
+        "longitude": "33.7947",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375145564.86",
+        "latitude": "84.3762443333",
+        "longitude": "33.794697833",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145570.92",
+        "latitude": "84.3762501667",
+        "longitude": "33.794701333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145579.16",
+        "latitude": "84.3762498333",
+        "longitude": "33.794700333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145582.85",
+        "latitude": "84.3762386667",
+        "longitude": "33.794688167",
+        "airquality": "223"
+    },
+    {
+        "epochtime": "1375145589.38",
+        "latitude": "84.3762278333",
+        "longitude": "33.7946895",
+        "airquality": "223"
+    },
+    {
+        "epochtime": "1375145595.36",
+        "latitude": "84.3762091667",
+        "longitude": "33.794692667",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145821.66",
+        "latitude": "84.3719293333",
+        "longitude": "-122.400377167",
+        "airquality": "223"
+    },
+    {
+        "epochtime": "1375145823.9",
+        "latitude": "84.3713663333",
+        "longitude": "-122.400328667",
+        "airquality": "223"
+    },
+    {
+        "epochtime": "1375145836.89",
+        "latitude": "84.3707736667",
+        "longitude": "33.7999355",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375145881.57",
+        "latitude": "84.370213",
+        "longitude": "33.799347333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146207.84",
+        "latitude": "null",
+        "longitude": "null",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146208.23",
+        "latitude": "null",
+        "longitude": "null",
+        "airquality": "223"
+    },
+    {
+        "epochtime": "1375146211.9",
+        "latitude": "84.30876",
+        "longitude": "-122.401926167",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146311.69",
+        "latitude": "37.68247",
+        "longitude": "33.794816167",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146313.9",
+        "latitude": "37.6810803333",
+        "longitude": "33.7936025",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146319.85",
+        "latitude": "37.6796995",
+        "longitude": "33.792427333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146325.96",
+        "latitude": "37.6783216667",
+        "longitude": "33.791263333",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146331.91",
+        "latitude": "37.6768678333",
+        "longitude": "33.790277667",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146401.57",
+        "latitude": "37.6752531667",
+        "longitude": "33.7897545",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146401.57",
+        "latitude": "37.673625",
+        "longitude": "33.789593333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146401.57",
+        "latitude": "37.6719693333",
+        "longitude": "33.790073833",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.58",
+        "latitude": "37.6705553333",
+        "longitude": "33.790961667",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.58",
+        "latitude": "37.6693475",
+        "longitude": "33.792060167",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.59",
+        "latitude": "37.6682325",
+        "longitude": "33.793146333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.59",
+        "latitude": "37.6671976667",
+        "longitude": "33.794175",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.6",
+        "latitude": "37.6662303333",
+        "longitude": "33.795104833",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146401.91",
+        "latitude": "37.6653656667",
+        "longitude": "33.795949333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.91",
+        "latitude": "37.6645641667",
+        "longitude": "33.796732333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146401.91",
+        "latitude": "37.663842",
+        "longitude": "33.797438167",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146404.04",
+        "latitude": "37.6632016667",
+        "longitude": "33.798053167",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146410.55",
+        "latitude": "37.6626118333",
+        "longitude": "33.7986255",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146415.94",
+        "latitude": "37.6621283333",
+        "longitude": "33.799112",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146421.99",
+        "latitude": "37.6617038333",
+        "longitude": "33.799513",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146429.86",
+        "latitude": "37.6612925",
+        "longitude": "33.799911333",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146433.96",
+        "latitude": "37.6608866667",
+        "longitude": "-122.400298333",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146439.9",
+        "latitude": "37.6604975",
+        "longitude": "-122.400650167",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146445.97",
+        "latitude": "37.6601106667",
+        "longitude": "-122.401040667",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146453.92",
+        "latitude": "37.6597185",
+        "longitude": "-122.4014195",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146461.16",
+        "latitude": "37.6593633333",
+        "longitude": "-122.401765667",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146463.93",
+        "latitude": "37.6590455",
+        "longitude": "-122.402076",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146469.92",
+        "latitude": "37.65875",
+        "longitude": "-122.402358333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146476.02",
+        "latitude": "37.6584708333",
+        "longitude": "-122.402625",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146484.74",
+        "latitude": "37.6582028333",
+        "longitude": "-122.402893667",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146487.91",
+        "latitude": "37.65793",
+        "longitude": "-122.403167",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146493.93",
+        "latitude": "37.6575955",
+        "longitude": "-122.403499667",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146501.74",
+        "latitude": "37.6571916667",
+        "longitude": "-122.403896",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146505.91",
+        "latitude": "37.6567423333",
+        "longitude": "-122.4043055",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146513.17",
+        "latitude": "37.6563686667",
+        "longitude": "-122.404661",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146517.94",
+        "latitude": "37.6561211667",
+        "longitude": "-122.404905333",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146524.76",
+        "latitude": "37.6560795",
+        "longitude": "-122.4049495",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146529.89",
+        "latitude": "37.656086",
+        "longitude": "-122.404950167",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146543.95",
+        "latitude": "37.656088",
+        "longitude": "-122.404968833",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375146544.39",
+        "latitude": "37.6560901667",
+        "longitude": "-122.404991167",
+        "airquality": "216"
+    },
+    {
+        "epochtime": "1375146548.11",
+        "latitude": "37.6560505",
+        "longitude": "-122.405049667",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146554.91",
+        "latitude": "37.6560098333",
+        "longitude": "-122.405091333",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146561.11",
+        "latitude": "37.655982",
+        "longitude": "-122.405103333",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146568.56",
+        "latitude": "37.655961",
+        "longitude": "-122.405116167",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146571.91",
+        "latitude": "37.6559718333",
+        "longitude": "-122.405117833",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146577.91",
+        "latitude": "37.6559623333",
+        "longitude": "-122.4051345",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146583.91",
+        "latitude": "37.655893",
+        "longitude": "-122.405227667",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146590.34",
+        "latitude": "37.6557638333",
+        "longitude": "-122.405383333",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146595.9",
+        "latitude": "37.6554615",
+        "longitude": "-122.405680667",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146601.9",
+        "latitude": "37.6549856667",
+        "longitude": "-122.4060865",
+        "airquality": "218"
+    },
+    {
+        "epochtime": "1375146608.11",
+        "latitude": "37.6544393333",
+        "longitude": "-122.406581167",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146614.98",
+        "latitude": "37.6538721667",
+        "longitude": "-122.407095833",
+        "airquality": "219"
+    },
+    {
+        "epochtime": "1375146619.95",
+        "latitude": "37.6532",
+        "longitude": "-122.407608333",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146626.0",
+        "latitude": "37.6524481667",
+        "longitude": "-122.408244",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146632.45",
+        "latitude": "37.651628",
+        "longitude": "-122.408914333",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146638.2",
+        "latitude": "37.650758",
+        "longitude": "-122.409631833",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146770.52",
+        "latitude": "37.6287598333",
+        "longitude": "-122.410715167",
+        "airquality": "220"
+    },
+    {
+        "epochtime": "1375146776.47",
+        "latitude": "37.6182441667",
+        "longitude": "-122.403842333",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375146780.07",
+        "latitude": "37.6166205",
+        "longitude": "-122.4026185",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375146785.93",
+        "latitude": "37.6149915",
+        "longitude": "-122.401387333",
+        "airquality": "216"
+    },
+    {
+        "epochtime": "1375146791.85",
+        "latitude": "37.6133573333",
+        "longitude": "-122.400154",
+        "airquality": "216"
+    },
+    {
+        "epochtime": "1375146797.89",
+        "latitude": "37.611746",
+        "longitude": "33.798860667",
+        "airquality": "216"
+    },
+    {
+        "epochtime": "1375146803.98",
+        "latitude": "37.6102666667",
+        "longitude": "33.797407833",
+        "airquality": "216"
+    },
+    {
+        "epochtime": "1375146809.9",
+        "latitude": "37.6088835",
+        "longitude": "33.795997833",
+        "airquality": "217"
+    },
+    {
+        "epochtime": "1375146908.59",
+        "latitude": "37.6005225",
+        "longitude": "33.7875215",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146912.23",
+        "latitude": "37.6005308333",
+        "longitude": "33.787515",
+        "airquality": "221"
+    },
+    {
+        "epochtime": "1375146917.9",
+        "latitude": "37.6005418333",
+        "longitude": "33.7875205",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375146925.53",
+        "latitude": "37.6005486667",
+        "longitude": "33.7875255",
+        "airquality": "222"
+    },
+    {
+        "epochtime": "1375147041.4",
+        "latitude": "37.5965585",
+        "longitude": "33.783357167",
+        "airquality": "239"
+    },
+    {
+        "epochtime": "1375147387.98",
+        "latitude": "37.581433",
+        "longitude": "33.747895333",
+        "airquality": "240"
+    },
+    {
+        "epochtime": "1375150794.92",
+        "latitude": "37.3915306667",
+        "longitude": "-122.070034833",
+        "airquality": "240"
+    },
+    {
+        "epochtime": "1375150797.86",
+        "latitude": "37.3896963333",
+        "longitude": "-122.080059167",
+        "airquality": "141"
+    },
+    {
+        "epochtime": "1375150803.85",
+        "latitude": "37.3896913333",
+        "longitude": "-122.080088167",
+        "airquality": "190"
+    },
+    {
+        "epochtime": "1375150809.81",
+        "latitude": "37.3897101667",
+        "longitude": "-122.080048",
+        "airquality": "188"
+    },
+    {
+        "epochtime": "1375150815.8",
+        "latitude": "37.3897203333",
+        "longitude": "-122.080041833",
+        "airquality": "186"
+    },
+    {
+        "epochtime": "1375150821.86",
+        "latitude": "37.3897371667",
+        "longitude": "-122.080025167",
+        "airquality": "188"
+    },
+    {
+        "epochtime": "1375150827.83",
+        "latitude": "37.3897635",
+        "longitude": "-122.080012667",
+        "airquality": "188"
+    },
+    {
+        "epochtime": "1375150833.86",
+        "latitude": "37.3898038333",
+        "longitude": "-122.0800365",
+        "airquality": "189"
+    },
+    {
+        "epochtime": "1375150936.27",
+        "latitude": "37.39166",
+        "longitude": "-122.081238333",
+        "airquality": "186"
+    },
+    {
+        "epochtime": "1375150950.99",
+        "latitude": "37.3916716667",
+        "longitude": "-122.081332833",
+        "airquality": "187"
+    },
+    {
+        "epochtime": "1375150951.38",
+        "latitude": "37.3916826667",
+        "longitude": "-122.081388667",
+        "airquality": "185"
+    },
+    {
+        "epochtime": "1375150953.75",
+        "latitude": "37.39168",
+        "longitude": "-122.081449833",
+        "airquality": "184"
+    },
+    {
+        "epochtime": "1375150959.83",
+        "latitude": "37.3917435",
+        "longitude": "-122.081690333",
+        "airquality": "186"
+    },
+    {
+        "epochtime": "1375150972.15",
+        "latitude": "37.391921",
+        "longitude": "-122.082131",
+        "airquality": "186"
+    },
+    {
+        "epochtime": "1375150972.15",
+        "latitude": "37.3921376667",
+        "longitude": "-122.082708333",
+        "airquality": "186"
+    }
+]
